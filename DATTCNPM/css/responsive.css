@@ -1,0 +1,76 @@
+:root{
+    --bg1: #151828;
+    --bg2: #1b1f34;
+    --body:#959DCC;
+    --brand:#FFAB76;
+    --white:#fff;
+}
+
+ /* For Desktop */
+@media (min-width: 992px){
+    ul.nav__item > .hidden{
+        display: none;
+    }
+}
+
+/* For Tablet */
+
+@media (min-width:768px) and (max-width:991px){
+    li.hidden{
+        display: block;
+    }
+    .navbar-nav > .hidden{
+        display: none;
+    }
+
+    .hero-title{
+        display: none;
+    }
+}
+
+/* For Tablet And PC */
+@media (min-width:768px){
+    .menu{
+        display: none;
+    }
+    .hero-title{
+        display: none;
+    }
+}
+
+/* For Tablet and Mobile Phone */ 
+ @media (min-width:660px) and (max-width:991px){
+    
+}
+
+/* For MobilePhone */
+
+@media(max-width:767px){
+    /* .menu{
+        display: block;
+    } */
+    .nav-item{
+        display: none;
+    }
+    .nav-dropdown{
+        display: none;
+    }
+    .ms-xs{
+        display: block  ;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .ms-xs:hover{
+        background-color:#FFAB76 ;
+    }
+    .ms-xs:hover a{
+        color: #000;
+        font-weight: bold;
+    }
+    .hero-title{
+        display: none;
+    }
+}

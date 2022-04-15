@@ -1,0 +1,40 @@
+Những Việc Cần Làm Ở Trang user
+- đặt lịch
+- Mua Sản Phẩm
+- Giỏ Hàng
+- Tìm Lịch Hẹn
+
+
+<!-- <p class=""><?php echo $row['product_name']?></p>
+                    <ul class="product_evaluate">
+                        <li class="product_evaluate">0 đánh giá</li>
+                        <li class="product_evaluate">
+                            <i class="ri-heart-line heart"></i>
+                            <i class="ri-share-line share"></i>
+                        </li>
+                    </ul>
+                    <p class="product-price"><?= number_format($row['product_cost'], 0, ",", ".") ?><sup>đ</sup></i></p>
+                        <ul class="product-priceold">
+                            <li><p class="product-old">
+                                <del><?= number_format($row['product_oldcost'], 0, ",", ".") ?><sup>đ</sup></del>
+                            </p></li>
+                            <li><div class="product-descre">
+                                Giảm <?php echo round(100-(($row['product_cost']/$row['product_oldcost'])*100))?>%
+                            </div>
+                        </ul>
+                    <ul class="quantity">
+                        <li class="quantity"><p>Số lượng:</p></li>
+                        <li class="quantity">
+                            <input class="minus is-form" type="button" value="-">
+                            <input aria-label="quantity" class="input-qty" max="<?php echo $row['soluong']?>" min="1" name="" type="number" value="">
+                            <input class="plus is-form" type="button" value="+">
+                        </li>
+                    </ul>
+                    <ul class="button">
+                        <li class="button-addcart">
+                            <a href="shopping-cart.php" class="addcart">Thêm Vào Giỏ Hàng</a>
+                        </li>
+                        <li class="button-buy">
+                            <input type="submit" class="buy" value="Mua Ngay">
+                        </li>
+                    </ul> -->
