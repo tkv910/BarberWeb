@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header("location:../account.php");
+}
+?>
+<?php
     include 'config.php';
     if(isset($_POST['sbm']) && !empty($_POST['search'])){
         $search = $_POST['search'];
@@ -58,7 +64,7 @@
                         class="fas fa-paperclip me-2"></i>Báo cáo</a>
                 <a href="quanlydoanhthu.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                         class="fas fa-shopping-cart me-2"></i>Doanh thu</a>
-                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
+                <a href="../logout.php" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
                         class="fas fa-power-off me-2"></i>Đăng xuất</a>
             </div>
         </div>
