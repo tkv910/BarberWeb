@@ -78,7 +78,7 @@ if (!isset($_SESSION["user"])) {
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Hồ sơ</a></li>
                                 <li><a class="dropdown-item" href="#">Cài đặt</a></li>
-                                <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                                <li><a class="dropdown-item" href="../logout.php">Đăng xuất</a></li>
                             </ul>
                         </li>
                     </ul>
